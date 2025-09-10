@@ -17,12 +17,10 @@ Suggested structure
     - val/
     - test/
   - labels/
-    - train/
-    - val/
-    - test/
-  - train.json            # COCO-style for train
-  - val.json              # COCO-style for validation
-  - test.json             # COCO-style for test
+    - train.json            # COCO-style for train
+    - val.json              # COCO-style for validation
+    - test.json             # COCO-style for test
+  -labels.txt               # only defect classification of dataset
   - yolo/
     - data.yaml            # Ultralytics YOLO dataset config
 
